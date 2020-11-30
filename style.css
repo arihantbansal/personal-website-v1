@@ -61,8 +61,7 @@ h1, h2 {
   text-shadow: rgba(0, 0, 0, .2) 0 2px 3px;
 }
 
-.box
-{
+.box {
 	margin: 0 2.2em;
 	display: inline-block;
 	height: 3.3em;
@@ -71,8 +70,7 @@ h1, h2 {
 	color: white;
 }
 
-.dix
-{
+.dix {
 	text-align: center;
 	vertical-align: middle;
 	font-size: 2em;
@@ -86,14 +84,12 @@ h1, h2 {
 	transition: 0.3s ease;
 }
 
-.box a
-{
+.box a {
 	text-decoration: none;
 	color: inherit;
 }
 
-.dix:hover
-{
+.dix:hover {
 	height: 3em;
 	width: 3em;
 	line-height: 3em;
@@ -119,29 +115,25 @@ h1, h2 {
   }
 }
 
-@media(max-width: 768px)
-{
+@media(max-width: 768px) {
   .ellipsis {
     display: none;
   }
 }
 
-@-webkit-keyframes gradientShift
-{
+@-webkit-keyframes gradientShift {
   0%{background-position:24% 0;}
   50%{background-position:77% 100%;}
   100%{background-position:24% 0;}
 }
 
-@-moz-keyframes gradientShift
-{
+@-moz-keyframes gradientShift {
   0%{background-position:24% 0;}
   50%{background-position:77% 100%;}
   100%{background-position:24% 0;}
 }
 
-@keyframes gradientShift
-{
+@keyframes gradientShift {
   0%{background-position:24% 0;}
   50%{background-position:77% 100%;}
   100%{background-position:24% 0;}
